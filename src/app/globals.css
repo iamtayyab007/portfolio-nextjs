@@ -20,19 +20,17 @@
 }
 
 html {
-  scroll-behavior: smooth;
+  scroll-behavior: auto;
 }
 
 body {
   background: linear-gradient(135deg, 
-    #667eea 0%, 
-    #764ba2 25%, 
-    #f093fb 50%, 
-    #4facfe 75%, 
-    #00f2fe 100%
+    #3b82f6 0%, 
+    #1e40af 25%, 
+    #dc2626 50%, 
+    #ef4444 75%, 
+    #6366f1 100%
   );
-  background-size: 400% 400%;
-  animation: gradient-shift 20s ease infinite;
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
   position: relative;
@@ -53,7 +51,6 @@ body::before {
     radial-gradient(circle at 80% 20%, rgba(255, 119, 198, 0.4) 0%, transparent 50%),
     radial-gradient(circle at 40% 40%, rgba(120, 219, 255, 0.4) 0%, transparent 50%),
     radial-gradient(circle at 60% 70%, rgba(255, 200, 87, 0.3) 0%, transparent 40%);
-  animation: float 25s ease-in-out infinite, gradient-morph 15s ease-in-out infinite;
   z-index: -1;
   pointer-events: none;
   transition: all 0.5s ease;
@@ -75,8 +72,6 @@ body::after {
       rgba(150, 0, 255, 0.1) 75%, 
       rgba(255, 100, 0, 0.1) 100%
     );
-  background-size: 400% 400%;
-  animation: gradient-wave 20s ease-in-out infinite, particles-float 30s linear infinite;
   z-index: -1;
   pointer-events: none;
   opacity: 0.7;

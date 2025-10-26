@@ -7,7 +7,7 @@ const Hero: React.FC = () => {
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
     if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
+      element.scrollIntoView({ behavior: 'auto' });
     }
   };
 
@@ -15,17 +15,18 @@ const Hero: React.FC = () => {
     <section id="home" className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-50 to-indigo-100 dark:from-gray-900 dark:to-gray-800 pt-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="text-center">
-          {/* Profile Image */}
+          
           <div className="mb-8">
             <div className="w-32 h-32 mx-auto rounded-full bg-gradient-to-r from-blue-500 to-purple-600 p-1">
               <div className="w-full h-full rounded-full bg-gray-200 dark:bg-gray-700 flex items-center justify-center">
-                <svg
+                {/* <svg
                   className="w-16 h-16 text-gray-400 dark:text-gray-500"
                   fill="currentColor"
                   viewBox="0 0 24 24"
                 >
                   <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
-                </svg>
+                </svg> */}
+                <img src="/profile-latest.jpeg" alt="profile" width={128} height={128} className="rounded-full" />
               </div>
             </div>
           </div>
@@ -34,12 +35,12 @@ const Hero: React.FC = () => {
           <h1 className="text-4xl md:text-6xl font-bold text-gray-900 dark:text-white mb-6">
             Hi, I'm{' '}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600">
-              Your Name
+              Muhammad Tayyab
             </span>
           </h1>
           
           <p className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 mb-8 max-w-3xl mx-auto">
-            Full Stack Developer & UI/UX Designer
+            Full Stack (MERN) Developer & Wordpress Developer
           </p>
           
           <p className="text-lg text-gray-600 dark:text-gray-400 mb-12 max-w-2xl mx-auto leading-relaxed">
