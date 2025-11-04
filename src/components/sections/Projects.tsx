@@ -48,11 +48,11 @@ const Projects: React.FC = () => {
       githubUrl: 'https://github.com/iamtayyab007/ai-resume-checker',
     },
     {
-      title: 'Portfolio Website',
-      description: 'A modern, responsive portfolio website built with Next.js and Tailwind CSS, featuring smooth animations and optimized performance.',
-      image: '/api/placeholder/400/250',
-      technologies: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Framer Motion'],
-      liveUrl: 'https://example.com',
+      title: 'Realtime Chat App',
+      description: 'A modern real-time chat application built with React 19, featuring seamless communication powered by Socket.IO. The app uses Axios for API communication, React Router DOM for smooth navigation, and React Toastify for interactive notifications. Styled Components ensures elegant, maintainable styling, while UUID generates unique message identifiers. The app is fully responsive and optimized for fast, reliable real-time messaging.',
+      image: '/project/realtime-chat-app.png',
+      technologies: [ 'React 19','Socket.IO Client','Axios','React Router DOM','Styled Components','React Toastify','React Icons','UUID'],
+      liveUrl: 'https://github.com/iamtayyab007/realtime-chat-app',
       githubUrl: 'https://github.com/example/portfolio',
     },
   ];
@@ -165,11 +165,13 @@ const Projects: React.FC = () => {
         </div>
 
         {/* View More Projects */}
-        <div className="text-center mt-12">
+        <div className="text-center mt-12 ">
           <Button
+          className='hover:text-white bg-grey-900 cursor-pointer'
             variant="outline"
             size="lg"
             onClick={() => window.open('https://github.com', '_blank')}
+            
           >
             View More Projects on GitHub
           </Button>

@@ -48,8 +48,8 @@ const Contact: React.FC = () => {
         </svg>
       ),
       title: 'Email',
-      value: 'hello@example.com',
-      link: 'mailto:hello@example.com',
+      value: 'iamtayyab336@gmail.com',
+      link: 'mailto:iamtayyab336@gmail.com',
     },
     {
       icon: (
@@ -58,8 +58,8 @@ const Contact: React.FC = () => {
         </svg>
       ),
       title: 'Phone',
-      value: '+1 (555) 123-4567',
-      link: 'tel:+15551234567',
+      value: '+92 336 7818585',
+      link: 'tel:+923367818585',
     },
     {
       icon: (
@@ -69,7 +69,7 @@ const Contact: React.FC = () => {
         </svg>
       ),
       title: 'Location',
-      value: 'San Francisco, CA',
+      value: 'Engineer Cooperative Houding Society (ECHS), Islamabad',
       link: '#',
     },
   ];
