@@ -28,7 +28,7 @@ const Header: React.FC = () => {
           {/* Logo */}
           <div className="flex-shrink-0">
             <h1 className="text-xl font-bold text-gray-900 dark:text-white">
-              Portfolio
+              <span className='text-red-500'>Port</span><span className='text-orange-400'>folio</span>
             </h1>
           </div>
 

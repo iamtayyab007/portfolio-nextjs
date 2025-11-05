@@ -53,7 +53,7 @@ const Projects: React.FC = () => {
       image: '/project/realtime-chat-app.png',
       technologies: [ 'React 19','Socket.IO Client','Axios','React Router DOM','Styled Components','React Toastify','React Icons','UUID'],
       liveUrl: 'https://github.com/iamtayyab007/realtime-chat-app',
-      githubUrl: 'https://github.com/example/portfolio',
+      githubUrl: 'https://github.com/iamtayyab007/realtime-chat-app',
     },
   ];
 

@@ -6,13 +6,48 @@ import Card from '@/components/ui/Card';
 const Certifications: React.FC = () => {
   const certifications = [
     {
-      title: 'AWS Certified Solutions Architect',
-      issuer: 'Amazon Web Services',
-      date: '2023',
-      credentialId: 'AWS-SAA-2023-001',
-      description: 'Demonstrated expertise in designing distributed systems on AWS platform with focus on scalability, security, and cost optimization.',
-      logo: '🏆',
-      skills: ['AWS', 'Cloud Architecture', 'Security', 'Scalability']
+      title: 'The Complete JavaScript Course 2024: From Zero to Hero',
+      issuer: 'Udemy',
+      date: '2024',
+      certificateURL: 'https://www.udemy.com/certificate/UC-ff6f284c-9271-4922-a5bf-56cd5113befd/',
+      description:
+        'Comprehensive, hands-on mastery of modern JavaScript including ES6+, DOM manipulation, asynchronous programming (Promises, async/await), data structures, OOP & functional patterns, modules, tooling, and real-world projects.',
+      logo: (
+        <img src="/project/udemy-logo.png" alt="Udemy" className="w-10 h-10 invert-0" />
+      ),
+      skills: [
+        'JavaScript',
+        'ES6+',
+        'DOM',
+        'Async/Await',
+        'Promises',
+        'OOP',
+        'Functional Programming',
+        'Modules',
+        'Tooling'
+      ]
+    },
+    {
+      title: 'React- The Complete Guide 2025 (Incl. NextJS And Redux)',
+      issuer: 'Udemy',
+      date: '2025',
+      certificateURL: 'https://www.udemy.com/certificate/UC-c1f0f068-6576-4b45-988a-f6206821bd74/',
+      description:
+        'End-to-end React mastery including modern hooks, component patterns, advanced state management with Redux, Next.js fundamentals (pages, routing, SSR/SSG), performance optimization, and building production-grade apps.',
+      logo: (
+        <img src="/project/udemy-logo.png" alt="Udemy" className="w-10 h-10 invert-0" />
+      ),
+      skills: [
+        'React',
+        'Hooks',
+        'Redux',
+        'Next.js',
+        'SSR/SSG',
+        'Routing',
+        'Performance Optimization',
+        'TypeScript',
+        'State Management'
+      ]
     },
     {
       title: 'Google Cloud Professional Developer',
@@ -76,7 +111,7 @@ const Certifications: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {certifications.map((cert, index) => (
             <Card 
-              key={cert.credentialId} 
+              key={cert.credentialId ?? cert.title}
               className="group relative overflow-hidden"
               style={{ animationDelay: `${index * 0.1}s` }}
             >
@@ -116,9 +151,23 @@ const Certifications: React.FC = () => {
                 </div>
 
                 <div className="pt-4 border-t border-gray-200 dark:border-gray-700">
-                  <p className="text-xs text-gray-500 dark:text-gray-400">
-                    Credential ID: <span className="font-mono">{cert.credentialId}</span>
-                  </p>
+                  {cert.certificateURL ? (
+                    <a
+                      href={cert.certificateURL}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-xs text-blue-600 dark:text-blue-400 hover:underline inline-flex items-center"
+                    >
+                      <span className="mr-1">View Certificate</span>
+                      <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 3h7v7M21 3l-9 9M3 21l9-9" />
+                      </svg>
+                    </a>
+                  ) : (
+                    <p className="text-xs text-gray-500 dark:text-gray-400">
+                      Credential ID: <span className="font-mono">{cert.credentialId}</span>
+                    </p>
+                  )}
                 </div>
               </div>
 
