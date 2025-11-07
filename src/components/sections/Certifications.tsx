@@ -13,7 +13,7 @@ const Certifications: React.FC = () => {
       description:
         'Comprehensive, hands-on mastery of modern JavaScript including ES6+, DOM manipulation, asynchronous programming (Promises, async/await), data structures, OOP & functional patterns, modules, tooling, and real-world projects.',
       logo: (
-        <img src="/project/udemy-logo.png" alt="Udemy" className="w-10 h-10 invert-0" />
+        <img src="/Project/udemy-logo.png" alt="Udemy" className="w-10 h-10 invert-0" />
       ),
       skills: [
         'JavaScript',
@@ -28,25 +28,26 @@ const Certifications: React.FC = () => {
       ]
     },
     {
-      title: 'React- The Complete Guide 2025 (Incl. NextJS And Redux)',
-      issuer: 'Udemy',
+      title: 'Javascript Programming Essentials',
+      issuer: 'Coursera',
       date: '2025',
-      certificateURL: 'https://www.udemy.com/certificate/UC-c1f0f068-6576-4b45-988a-f6206821bd74/',
+      certificateURL: 'https://coursera.org/share/96df6f9eb519851c2ef8e8d76dbb6438',
       description:
-        'End-to-end React mastery including modern hooks, component patterns, advanced state management with Redux, Next.js fundamentals (pages, routing, SSR/SSG), performance optimization, and building production-grade apps.',
+        'This course introduces the core concepts of JavaScript development, covering modern ES6 features, key data structures, and DOM manipulation. Learn to use functions, events, and error-handling techniques while exploring arrays, AJAX, and debugging. Understand promises, async/await, and how to dynamically modify and style DOM elements. By the end, you’ll be able to build interactive, data-driven web pages using JavaScript’s essential tools, libraries, and services.',
       logo: (
-        <img src="/project/udemy-logo.png" alt="Udemy" className="w-10 h-10 invert-0" />
+        <img src="/Project/udemy-logo.png" alt="Udemy" className="w-10 h-10 invert-0" />
       ),
       skills: [
-        'React',
-        'Hooks',
-        'Redux',
-        'Next.js',
-        'SSR/SSG',
-        'Routing',
-        'Performance Optimization',
-        'TypeScript',
-        'State Management'
+        'Software Development',
+        'Git (Version Control System)',
+        'Ajax',
+        'Javascript',
+        'Event-Driven Programming',
+        'OOP (Object Oriented Programming)',
+        'Debugging',
+        'Json',
+        'Web Development',
+        'Computer Programming'
       ]
     },
     {

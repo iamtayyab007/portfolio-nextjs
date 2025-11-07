@@ -10,7 +10,7 @@ const Projects: React.FC = () => {
     {
       title: 'Financial Dashboard App in NextJS',
       description: 'Built a full-featured dashboard using Next.js, TypeScript, and Tailwind CSS — completed as part of the official Next.js Fundamentals certification.',
-      image: '/project/nextjs-dashboard.png',
+      image: '/Project/nextjs-dashboard.png',
       technologies: ['Next.js', 'TypeScript', 'Tailwind CSS','Next-Auth','Zod'],
       liveUrl: 'https://financial-system-steel.vercel.app/',
       githubUrl: 'https://github.com/example/ecommerce',
@@ -18,7 +18,7 @@ const Projects: React.FC = () => {
     {
       title: 'Health Care (Appointment App in NextJs)',
       description: 'Built a Health Care Appointment App with Next.js and Tailwind CSS, leveraging Appwrite for backend services, Zod and React Hook Form for validation, and TanStack Table for data management with Sentry integration for error tracking.',
-      image: '/project/health-care.png',
+      image: '/Project/health-care.png',
       technologies: ['NextJS', 'Appwrite', 'Tailwind', 'ShadCN','Sentry','React-Hook-Form','tanstack table'],
       liveUrl: 'https://tk-healthcare.vercel.app/',
       githubUrl: 'https://github.com/iamtayyab007/tk-healthcare',
@@ -26,7 +26,7 @@ const Projects: React.FC = () => {
     {
       title: 'Droply (Inspired by Dropbox)',
       description: 'A modern cloud storage platform inspired by Dropbox, built with Next.js and Clerk for authentication. It uses NeonDB (serverless PostgreSQL) for data storage, Tailwind CSS and Hero UI for a sleek and responsive interface, React Hook Form and Zod for robust form validation, ImageKit for optimized file uploads and delivery, and Framer Motion for smooth, engaging animations.',
-      image: '/project/droply.png',
+      image: '/Project/droply.png',
       technologies: ['Next.js','NeonDB (Serverless PostgreSQL)','Clerk','Hero UI','Tailwind CSS','React Hook Form','Zod','ImageKit','Framer Motion'],
       liveUrl: 'https://droply-git-main-muhammad-tayyabs-projects-8bad2fa4.vercel.app',
       githubUrl: 'https://github.com/iamtayyab007/droply',
@@ -34,7 +34,7 @@ const Projects: React.FC = () => {
     {
       title: 'Saas Tool (Voice Agent App in NextJs)',
       description: 'A modern analytics dashboard built with Next.js and React, featuring AI-powered insights, interactive visualizations, secure Clerk authentication, and Supabase backend integration. Includes responsive UI with Radix UI & Tailwind CSS, form validation via React Hook Form & Zod, and monitoring with Sentry.',
-      image: '/project/ai-voice-agent.png',
+      image: '/Project/ai-voice-agent.png',
     technologies: ['Next.js','React','Tailwind CSS','Radix UI','Supabase','Clerk','React Hook Form', 'Zod', 'Sentry', 'OpenTelemetry', 'Lottie'],
       liveUrl: 'https://tk-saas-njgfhn7oc-muhammad-tayyabs-projects-8bad2fa4.vercel.app/',
       githubUrl: 'https://github.com/iamtayyab007/tk-Saas',
@@ -42,7 +42,7 @@ const Projects: React.FC = () => {
     {
       title: 'Ai Resume Analyzer (Saas Tool)',
       description: 'A modern React 19 web app using React Router v7, Zustand for state management, and Tailwind CSS for styling, leveraging Puter.js built-in functions, authentication, and database. Supports file uploads via React Dropzone and PDF handling with pdfjs-dist.',
-      image: '/project/Ai-Resume-analyzer.png',
+      image: '/Project/Ai-Resume-analyzer.png',
       technologies: ['React Router V7', 'Zustand', 'Puter.js', 'ReactDropZone'],
       liveUrl: 'https://github.com/iamtayyab007/ai-resume-checker',
       githubUrl: 'https://github.com/iamtayyab007/ai-resume-checker',
@@ -50,7 +50,7 @@ const Projects: React.FC = () => {
     {
       title: 'Realtime Chat App',
       description: 'A modern real-time chat application built with React 19, featuring seamless communication powered by Socket.IO. The app uses Axios for API communication, React Router DOM for smooth navigation, and React Toastify for interactive notifications. Styled Components ensures elegant, maintainable styling, while UUID generates unique message identifiers. The app is fully responsive and optimized for fast, reliable real-time messaging.',
-      image: '/project/realtime-chat-app.png',
+      image: '/Project/realtime-chat-app.png',
       technologies: [ 'React 19','Socket.IO Client','Axios','React Router DOM','Styled Components','React Toastify','React Icons','UUID'],
       liveUrl: 'https://github.com/iamtayyab007/realtime-chat-app',
       githubUrl: 'https://github.com/iamtayyab007/realtime-chat-app',

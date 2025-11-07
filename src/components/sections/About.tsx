@@ -123,7 +123,7 @@ const About: React.FC = () => {
             {coreCompetence.map((item) => (
               <div
                 key={item.name}
-                className="p-4 border border-gray-200 dark:border-gray-700 rounded-lg text-center text-gray-700 dark:text-green-400 hover:bg-gray-100 dark:hover:bg-gray-800 transition"
+                className="p-4 border border-gray-200 dark:border-gray-700 rounded-lg text-center text-gray-700 dark:text-purple-300 hover:bg-gray-100 dark:hover:bg-gray-800 transition"
               >
                 {item.name}
               </div>

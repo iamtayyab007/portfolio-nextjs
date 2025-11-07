@@ -12,7 +12,7 @@ const Hero: React.FC = () => {
   };
 
   return (
-    <section id="home" className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-50 to-indigo-100 dark:from-gray-900 dark:to-gray-800 pt-16">
+    <section id="home" className="min-h-screen flex items-center justify-center bg-gradient-to-br from-sky-50 via-pink-50 to-violet-100 dark:from-gray-900 dark:via-gray-800 dark:to-gray-700 pt-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="text-center">
           
@@ -58,7 +58,13 @@ const Hero: React.FC = () => {
             >
               View My Work
             </Button>
-            
+               <Button
+              size="lg"
+             
+              className="w-full sm:w-auto bg-orange-500 hover:bg-orange-700"
+            >
+              Resume
+            </Button>
             <Button
               variant="outline"
               size="lg"

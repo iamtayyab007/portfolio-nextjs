@@ -15,7 +15,7 @@ const Footer: React.FC = () => {
           
           <div className="flex space-x-6">
             <a
-              href="https://github.com"
+              href="https://github.com/iamtayyab007"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-white transition-colors"
@@ -26,7 +26,7 @@ const Footer: React.FC = () => {
             </a>
             
             <a
-              href="https://linkedin.com"
+              href="https://linkedin.com/in/iamtayyab007"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-white transition-colors"
@@ -37,7 +37,7 @@ const Footer: React.FC = () => {
             </a>
             
             <a
-              href="https://twitter.com"
+              href="https://x.com/iamtayyab007"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-white transition-colors"
