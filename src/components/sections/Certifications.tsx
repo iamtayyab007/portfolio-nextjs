@@ -35,7 +35,7 @@ const Certifications: React.FC = () => {
       description:
         'This course introduces the core concepts of JavaScript development, covering modern ES6 features, key data structures, and DOM manipulation. Learn to use functions, events, and error-handling techniques while exploring arrays, AJAX, and debugging. Understand promises, async/await, and how to dynamically modify and style DOM elements. By the end, you’ll be able to build interactive, data-driven web pages using JavaScript’s essential tools, libraries, and services.',
       logo: (
-        <img src="/Project/udemy-logo.png" alt="Udemy" className="w-10 h-10 invert-0" />
+        <img src="/Project/coursera-logo.png" alt="Udemy" className="w-10 h-10 invert-0" />
       ),
       skills: [
         'Software Development',
@@ -51,13 +51,30 @@ const Certifications: React.FC = () => {
       ]
     },
     {
-      title: 'Google Cloud Professional Developer',
-      issuer: 'Google Cloud',
-      date: '2023',
-      credentialId: 'GCP-PD-2023-002',
-      description: 'Certified in developing scalable and reliable applications on Google Cloud Platform using best practices.',
-      logo: '☁️',
-      skills: ['GCP', 'Kubernetes', 'DevOps', 'Microservices']
+      title: 'React- The complete guide 2025 (Incl. NextJS, Redux)',
+      issuer: 'Udemy',
+      date: '2025',
+       certificateURL: 'https://www.udemy.com/certificate/UC-c1f0f068-6576-4b45-988a-f6206821bd74/',
+      description: 'This course is a complete guide to React.js, starting with the basics and taking you to advanced concepts. Learn to build dynamic, interactive, and high-performance applications using React, React Hooks, Redux, and Next.js. Gain hands-on experience with component design, state management, forms, routing, authentication, animations, unit testing, and fullstack app development. With practical projects, real-world examples, and no prior React knowledge required, you’ll finish as a confident React developer ready to build and deploy modern web applications.',
+      logo:(<img src="/Project/udemy-logo.png" alt="Udemy" className="w-10 h-10 invert-0" />),
+      skills: [
+  'React.js',
+  'React Hooks',
+  'Redux & Redux Toolkit',
+  'Next.js',
+  'JavaScript',
+  'TypeScript',
+  'Front-end Development',
+  'UI/UX Design',
+  'React Router',
+  'State Management',
+  'Unit Testing',
+  'Styled Components',
+  'HTTP & API Integration',
+  'Authentication',
+  'Animations'
+]
+
     },
     {
       title: 'Microsoft Azure Fundamentals',
