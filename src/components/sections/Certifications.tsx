@@ -76,42 +76,83 @@ const Certifications: React.FC = () => {
 ]
 
     },
+   {
+  title: 'JavaScript Fullstack Capstone Project',
+  issuer: 'Coursera',
+  date: '2025',
+  credentialUrl: 'https://coursera.org/share/2e8172055e0707d8af6c4cb9f7050a26',
+  description: 'Developed a full-stack web application integrating front-end and back-end technologies using JavaScript, React, Node.js, Express, and MongoDB. Applied DevOps and Agile practices by implementing CI/CD pipelines and creating user stories. Deployed the application on the cloud using containerization and serverless technologies, demonstrating proficiency in modern web development and deployment workflows.',
+  logo:  <img src="/Project/coursera-logo.png" alt="Udemy" className="w-10 h-10 invert-0" />,
+  skills: [
+    'JavaScript',
+    'React.js',
+    'Node.js',
+    'Express.js',
+    'MongoDB',
+    'Full-Stack Web Development',
+    'Front-End Development',
+    'Back-End Development',
+    'Cloud Development',
+    'CI/CD',
+    'Kubernetes',
+    'Application Deployment',
+    'Database Management',
+    'NoSQL',
+    'DevOps',
+    'Software Architecture',
+    'Application Design'
+  ]
+},
+
     {
-      title: 'Microsoft Azure Fundamentals',
-      issuer: 'Microsoft',
-      date: '2022',
-      credentialId: 'AZ-900-2022-003',
-      description: 'Foundational knowledge of cloud services and how they are provided with Microsoft Azure.',
-      logo: '🔷',
-      skills: ['Azure', 'Cloud Computing', 'SaaS', 'IaaS']
-    },
-    {
-      title: 'React Developer Certification',
-      issuer: 'Meta',
-      date: '2023',
-      credentialId: 'META-REACT-2023-004',
-      description: 'Advanced React development skills including hooks, context, performance optimization, and testing.',
-      logo: '⚛️',
-      skills: ['React', 'JavaScript', 'Frontend', 'Testing']
-    },
-    {
-      title: 'Node.js Application Developer',
-      issuer: 'OpenJS Foundation',
-      date: '2022',
-      credentialId: 'NODEJS-AD-2022-005',
-      description: 'Expertise in building scalable server-side applications using Node.js and related technologies.',
-      logo: '🟢',
-      skills: ['Node.js', 'Express', 'MongoDB', 'API Development']
-    },
-    {
-      title: 'Certified Kubernetes Administrator',
-      issuer: 'Cloud Native Computing Foundation',
-      date: '2023',
-      credentialId: 'CKA-2023-006',
-      description: 'Demonstrated skills in Kubernetes cluster administration, troubleshooting, and application lifecycle management.',
-      logo: '⚙️',
-      skills: ['Kubernetes', 'Docker', 'Container Orchestration', 'DevOps']
-    }
+  title: 'Developing Frontend Apps with React',
+  issuer: 'Coursera',
+  date: '2025',
+  credentialUrl: 'https://coursera.org/share/049d32bb2738e27991dcbbced99cee86',
+  description: 'Gained hands-on experience in developing interactive and dynamic front-end web applications using React, JSX, and modern JavaScript (ES6). Built reusable UI components, managed state with hooks and Redux, and implemented forms and event-driven functionality. Demonstrated React proficiency by creating projects such as a shopping cart while applying best practices in front-end and full-stack development.',
+  logo: <img src="/Project/coursera-logo.png" alt="Udemy" className="w-10 h-10 invert-0" />,
+  skills: [
+    'React.js',
+    'React Redux',
+    'JavaScript',
+    'JSX',
+    'Hooks',
+    'Front-End Web Development',
+    'Full-Stack Web Development',
+    'Event-Driven Programming',
+    'UI Components',
+    'Web Applications',
+    'Web Development',
+    'Data Structures',
+    'Cascading Style Sheets (CSS)',
+    'JavaScript Frameworks'
+  ]
+},
+   {
+  title: 'Developing Back-End Apps with Node.js and Express',
+  issuer: 'Coursera',
+  date: '2025',
+  credentialUrl: 'https://coursera.org/share/a773dfe11d43d56ee663534fc76f434e',
+  description: 'Developed and deployed server-side applications using the Node.js runtime environment. Utilized npm for package management, integrated third-party libraries and frameworks such as Express, and implemented RESTful APIs for web and cloud applications. Gained hands-on experience with asynchronous programming using callbacks and promises, focusing on scalable, efficient, and secure back-end development.',
+  logo: <img src="/Project/coursera-logo.png" alt="Udemy" className="w-10 h-10 invert-0" />,
+  skills: [
+    'Node.js',
+    'Express',
+    'JavaScript',
+    'Server-Side Development',
+    'Web Servers',
+    'RESTful API',
+    'JSON',
+    'Full-Stack Web Development',
+    'Back-End Web Development',
+    'Cloud Applications',
+    'Authentication',
+    'Web Applications',
+    'Computer Science'
+  ]
+},
+
+   
   ];
 
   return (
@@ -129,7 +170,7 @@ const Certifications: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {certifications.map((cert, index) => (
             <Card 
-              key={cert.credentialId ?? cert.title}
+              key={cert.credentialUrl ?? cert.title}
               className="group relative overflow-hidden"
               style={{ animationDelay: `${index * 0.1}s` }}
             >
@@ -183,7 +224,7 @@ const Certifications: React.FC = () => {
                     </a>
                   ) : (
                     <p className="text-xs text-gray-500 dark:text-gray-400">
-                      Credential ID: <span className="font-mono">{cert.credentialId}</span>
+                      Credential ID: <span className="font-mono">{cert.credentialUrl}</span>
                     </p>
                   )}
                 </div>
@@ -208,7 +249,7 @@ const Certifications: React.FC = () => {
               <div className="flex items-center justify-center space-x-4 text-sm text-gray-500 dark:text-gray-400">
                 <span className="flex items-center">
                   <span className="w-2 h-2 bg-green-500 rounded-full mr-2 animate-pulse"></span>
-                  Currently pursuing: Docker Certified Associate
+                  Currently pursuing: Navttc Fullstack Javascript Course
                 </span>
               </div>
             </div>
