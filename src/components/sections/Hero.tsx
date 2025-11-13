@@ -10,7 +10,8 @@ const Hero: React.FC = () => {
       element.scrollIntoView({ behavior: 'auto' });
     }
   };
-
+ // 🔗 Direct Google Drive download link
+  const resumeUrl = "https://drive.google.com/uc?export=download&id=1VngnYEEgn1G8vW0QbBd0oNDvqMgJFcxt";
   return (
     <section id="home" className="min-h-screen flex items-center justify-center bg-gradient-to-br from-sky-50 via-pink-50 to-violet-100 dark:from-gray-900 dark:via-gray-800 dark:to-gray-700 pt-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
@@ -58,13 +59,28 @@ const Hero: React.FC = () => {
             >
               View My Work
             </Button>
-               <Button
+               {/* <Button
               size="lg"
              
               className="w-full sm:w-auto bg-orange-500 hover:bg-orange-700"
             >
               Resume
-            </Button>
+            </Button> */}
+
+              <a
+              href={resumeUrl}
+              download
+              //target="_blank"
+              rel="noopener noreferrer"
+              className="w-full sm:w-auto"
+            >
+              <Button
+                size="lg"
+                className="w-full bg-orange-500 hover:bg-orange-700"
+              >
+                Download Resume
+              </Button>
+            </a>
             <Button
               variant="outline"
               size="lg"
