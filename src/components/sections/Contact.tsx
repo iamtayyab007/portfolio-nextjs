@@ -69,7 +69,7 @@ const Contact: React.FC = () => {
         </svg>
       ),
       title: 'Location',
-      value: 'Engineer Cooperative Houding Society (ECHS), Islamabad',
+      value: 'Engineers Cooperative Housing Society (ECHS), Islamabad',
       link: '#',
     },
   ];
