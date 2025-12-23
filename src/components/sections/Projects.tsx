@@ -7,14 +7,14 @@ import Image from 'next/image';
 
 const Projects: React.FC = () => {
   const projects = [
-    {
-      title: 'Financial Dashboard App in NextJS',
-      description: 'Built a full-featured dashboard using Next.js, TypeScript, and Tailwind CSS — completed as part of the official Next.js Fundamentals certification.',
-      image: '/Project/nextjs-dashboard.png',
-      technologies: ['Next.js', 'TypeScript', 'Tailwind CSS','Next-Auth','Zod'],
-      liveUrl: 'https://financial-system-steel.vercel.app/',
-      githubUrl: 'https://github.com/example/ecommerce',
-    },
+    // {
+    //   title: 'Financial Dashboard App in NextJS',
+    //   description: 'Built a full-featured dashboard using Next.js, TypeScript, and Tailwind CSS — completed as part of the official Next.js Fundamentals certification.',
+    //   image: '/Project/nextjs-dashboard.png',
+    //   technologies: ['Next.js', 'TypeScript', 'Tailwind CSS','Next-Auth','Zod'],
+    //   liveUrl: 'https://financial-system-steel.vercel.app/',
+    //   githubUrl: 'https://github.com/example/ecommerce',
+    // },
     {
       title: 'Health Care (Appointment App in NextJs)',
       description: 'Built a Health Care Appointment App with Next.js and Tailwind CSS, leveraging Appwrite for backend services, Zod and React Hook Form for validation, and TanStack Table for data management with Sentry integration for error tracking.',
