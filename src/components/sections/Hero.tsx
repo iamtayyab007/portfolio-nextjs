@@ -11,7 +11,7 @@ const Hero: React.FC = () => {
     }
   };
  // 🔗 Direct Google Drive download link
-  const resumeUrl = "https://drive.google.com/uc?export=download&id=1VngnYEEgn1G8vW0QbBd0oNDvqMgJFcxt";
+  const resumeUrl = "https://drive.google.com/file/d/15R1joVw1YxyLEAiVGZEkEgX5PYeox5im/view?usp=drive_link";
   return (
     <section id="home" className="min-h-screen flex items-center justify-center bg-gradient-to-br from-sky-50 via-pink-50 to-violet-100 dark:from-gray-900 dark:via-gray-800 dark:to-gray-700 pt-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">

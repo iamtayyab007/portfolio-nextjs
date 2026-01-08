@@ -55,6 +55,15 @@ const Projects: React.FC = () => {
       liveUrl: 'https://github.com/iamtayyab007/realtime-chat-app',
       githubUrl: 'https://github.com/iamtayyab007/realtime-chat-app',
     },
+
+    {
+  title: 'Coin Bounce (Blogging Platform in MERN Stack)',
+  description: 'Built Coin Bounce, a full-featured blogging platform using the MERN stack, enabling users to create, edit, and manage blog posts with secure authentication. Implemented form validation using Formik with Yup and Joi, JWT-based authentication with bcrypt password hashing, global state management using Redux Toolkit, and API communication via Axios with interceptors for token handling.',
+  image: '/Project/coin-bounce.png',
+  technologies: ['React', 'Redux Toolkit','Axios','Axios Interceptors','Formik','Yup','Joi','JSON Web Token','bcrypt','MongoDB','Express','Node.js'],
+  liveUrl: 'https://github.com/iamtayyab007/coin-bounce',
+  githubUrl: 'https://github.com/iamtayyab007/coin-bounce',
+}
   ];
 
   return (
