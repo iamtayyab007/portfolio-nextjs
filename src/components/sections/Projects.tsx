@@ -15,6 +15,7 @@ const Projects: React.FC = () => {
     //   liveUrl: 'https://financial-system-steel.vercel.app/',
     //   githubUrl: 'https://github.com/example/ecommerce',
     // },
+
     {
       title: 'Health Care (Appointment App in NextJs)',
       description: 'Built a Health Care Appointment App with Next.js and Tailwind CSS, leveraging Appwrite for backend services, Zod and React Hook Form for validation, and TanStack Table for data management with Sentry integration for error tracking.',
@@ -23,6 +24,22 @@ const Projects: React.FC = () => {
       liveUrl: 'https://tk-healthcare.vercel.app/',
       githubUrl: 'https://github.com/iamtayyab007/tk-healthcare',
     },
+{
+  title: 'Stock App (Real-Time Market & Alerts)',
+  description: 'Developed a Stock Market Application using Next.js and TypeScript, featuring real-time stock search and insights, workflow automation with Inngest, email notifications via Nodemailer, and a modern UI built with Tailwind CSS and shadcn/ui.',
+  image: '/Project/stock-app.png',
+  technologies: [
+    'NextJS',
+    'TypeScript',
+    'Inngest',
+    'Nodemailer',
+    'Tailwind CSS',
+    'ShadCN UI',
+  ],
+  liveUrl:'https://stock-trading-app-dun.vercel.app/',
+  githubUrl: 'https://github.com/iamtayyab007/stock_trading-app',
+},
+
     {
       title: 'Droply (Inspired by Dropbox)',
       description: 'A modern cloud storage platform inspired by Dropbox, built with Next.js and Clerk for authentication. It uses NeonDB (serverless PostgreSQL) for data storage, Tailwind CSS and Hero UI for a sleek and responsive interface, React Hook Form and Zod for robust form validation, ImageKit for optimized file uploads and delivery, and Framer Motion for smooth, engaging animations.',
